@@ -44,8 +44,6 @@ namespace TestNunit.PageObject
             _driver.FindElement(OpenApp).Click();
             Thread.Sleep(1000);
             checkElement.check(structureApp);
-
-
         }
         public void FindingApp(string nameAPP)
         {
